@@ -13,7 +13,7 @@ class a
 	}
 	public void check()
 	{
-		int pos=0;
+		int pos;
 		Scanner sc=new Scanner(System.in);
 		int user=sc.nextInt();
 		int len=stack.size();
@@ -23,16 +23,19 @@ class a
 			int z=stack.get(i);
 			while(user<z)
 			{
-				//pos=i;
+				pos=i;
 				stack.add(user);
-				System.out.println("span"+ ((len+1)-(i+1)));
-				break;
+
+				System.out.println("span"+ (len-i));
+				System.exit(1);
+				
 			}
-				break;
+				
 			//else
 			//{
 			////break;
 			}
+			
 		}
 
 	}
