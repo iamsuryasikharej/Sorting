@@ -19,6 +19,7 @@ class a{
 class Example24{
 	public static void main(String [] args){
 	a obj=new a();
+	System.out.println("wait a minute");
 	obj.fizzbizz();
 	}
 }
