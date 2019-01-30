@@ -27,10 +27,13 @@ class a
 				stack.add(user);
 
 				System.out.println("span"+ (len-i));
+				System.out.println("new stack"+stack);
 				System.exit(1);
 				
 			}
-				
+				if(i==0){
+					System.out.println("nothing ");
+				}
 			//else
 			//{
 			////break;
